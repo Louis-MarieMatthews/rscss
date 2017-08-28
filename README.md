@@ -25,7 +25,7 @@ Les problèmes souvent rencontrés incluent :
 
 **rscss** est une réponse possible à tous ces problèmes. Ce n'est pas un framework, mais tout simplement une suggestion d'idées pour vous aider et vous guider afin de créer du code CSS qui soit maintenable pour n'importe quel site ou application moderne.
 
-Commencons par découvrir les composants (components).
+Commençons par découvrir les composants (components).
 [Continuer →](docs/components.md)
 <!-- {p:.pull-box} -->
 
