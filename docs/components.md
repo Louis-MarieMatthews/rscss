@@ -3,7 +3,7 @@ Composants
 
 Pensez en termes de composants. Essayez de voir votre interface comme un ensemble de composants.
 
-![La barre de recherche peut être vue comme un composant de l'interfaces](images/component-example.png)
+![La barre de recherche peut être vue comme un composant de l'interface.](images/component-example.png)
 
 ## Comment appeler ses composants
 Tous les composants seront nommés avec **au moins deux mots**, séparés par un tiret. Par exemple :
