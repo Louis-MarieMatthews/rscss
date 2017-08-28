@@ -2,7 +2,7 @@
 
 Les éléments sont des « choses » au sein de vos composants.
 
-![](images/component-elements.png)
+![Un composant peut contenir des éléments. Ici, un formulaire de recherche (le composant) contient un champ et un bouton (les éléments).](images/component-elements.png)
 
 ## Comment appeler ses éléments
 Chaque composant peut avoir des éléments. Leur classes ne doivent être écrites en **un seul mot**.
