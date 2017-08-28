@@ -1,4 +1,4 @@
-##### Viewing this from GitHub? Visit the website for the full experience. **[rscss.io →](http://rscss.io)**
+##### Vous pouvez si vous le voulez découvrir RSCSS depuis le site officiel (en anglais) **[rscss.io →](http://rscss.io)**
 <!-- {h5: style='display:none'} -->
 
 ----
@@ -8,30 +8,32 @@
 
 <!-- {h1:.massive-header.-with-tagline} -->
 
-> Styling CSS without losing your sanity
+> Écrire du CSS sans perdre la raison
 
-Reasonable System for CSS Stylesheet Structure.<br>
-A set of simple ideas to guide your process of building maintainable CSS.
+Reasonable System for CSS Stylesheet Structure (Système Raisonnable de Structure de Fichier CSS@.<br>
+Un ensemble d'idées très simples pour vous aider à créer du code CSS plus facilement maintenable.
 
 Introduction
 ------------
 
-Any CSS greater than 1000 lines will get unwieldy. You'll eventually run into these common pitfalls:
+À partir de 1000 lignes, les fichiers CSS ont tendance à devenir mal organisés.
+Les problèmes souvent rencontrés incluent :
 
-* "What does this class mean?"
-* "Is this class still being used?"
-* "If I make a new class `green`, will there be a clash?"
+* « Qu'est ce que cette classe signifie ? »
+* « Est-ce que cette classe est toujours utilisée ? »
+* « Si je créé une nouvelle classe, `green` (vert), est-ce que cela causera un conflit quelque part ? »
 
-**rscss** is an attempt to make sense of all these. It is not a framework. It's simply a set of ideas to guide your process of building maintainable CSS for any modern website or application.
+**rscss** est une réponse possible à tous ces problèmes. Ce n'est pas un framework, mais tout simplement une suggestion d'idées pour vous aider et vous guider afin de créer du code CSS qui soit maintenable pour n'importe quel site ou application moderne.
 
-Let's get started by learning about components.
-[Continue →](docs/components.md)
+Commencons par découvrir les composants (components).
+[Continuer →](docs/components.md)
 <!-- {p:.pull-box} -->
 
 ----
 <!-- {hr: style='display:none'} -->
 
 **rscss** © 2015+, Rico Sta. Cruz. Released under the [MIT] License.<br>
+Traduit en français par Louis-Marie Matthews. <br>
 Authored and maintained by Rico Sta. Cruz with help from contributors ([list][contributors]).
 <!-- {p: style='display:none'} -->
 
