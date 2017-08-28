@@ -50,7 +50,7 @@ Parfois, quand vous imbriquez des composants, le code HTML peut ne paraître pas
 </div>
 ```
 
-Vous pouvez simplifier cela avec la directive `@extend` :
+Vous pouvez alors simplifier cela avec la directive `@extend` :
 
 ```html
 <div class='search-form'>
