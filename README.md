@@ -32,9 +32,9 @@ Commençons par découvrir les composants (components).
 ----
 <!-- {hr: style='display:none'} -->
 
-**rscss** © 2015+, Rico Sta. Cruz. Released under the [MIT] License.<br>
+**rscss** © 2015+, Rico Sta. Cruz. Publié sous la License [MIT].<br>
 Traduit en français par Louis-Marie Matthews. <br>
-Authored and maintained by Rico Sta. Cruz with help from contributors ([list][contributors]).
+Créé et maintenu par Rico Sta. Cruz avec l'aide des contributeurs ([list][contributors]).
 <!-- {p: style='display:none'} -->
 
 > [ricostacruz.com](http://ricostacruz.com) &nbsp;&middot;&nbsp;
