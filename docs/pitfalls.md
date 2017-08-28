@@ -1,7 +1,7 @@
-# Pitfalls
+# Erreurs fréquentes
 
-## Bleeding through nested components
-Be careful about nested components with elements sharing the same name as elements in its container.
+## Dépasser à travers les composants imbriqués
+Soyez prudents avec les composants imbriqués. Il est possible qu'ils contiennent des éléments portant le même nom que d'autres éléments en dehors du composant.
 
 ```html
 <article class='article-link'>
@@ -11,7 +11,7 @@ Be careful about nested components with elements sharing the same name as elemen
     <span class='count'>4</span>
   </div>
 
-  <h3 class='title'>Article title</h3>
+  <h3 class='title'>Titre de l'article</h3>
   <p class='count'>3 votes</p>
 </article>
 ```
@@ -29,4 +29,4 @@ Be careful about nested components with elements sharing the same name as elemen
 }
 ```
 
-In this case, if `.article-link > .count` did not have the `>` (child) selector, it will also apply to the `.vote-box .count` element. This is one of the reasons why child selectors are preferred.
+Dans ce cas-là, si `.article-link > .count` n'utilisait pas le sélecteur direct `>`, il s'appliquerait aussi à l'élément `.vote-box .count`. Cela est une des raisons pour laquelle le sélecteur direct est privilégié.

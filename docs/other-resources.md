@@ -1,13 +1,13 @@
-# Other resources
+# Autres ressources
 
- * [ITCSS](https://speakerdeck.com/dafed/managing-css-projects-with-itcss#49) ("Inverted Triangle CSS") is a nice complement to any rscss structure.
- * [rsjs](http://ricostacruz.com/rsjs/) ("Reasonable Standard of JavaScript Structure") is a work-in-progress document for structuring JavaScript on basic sites.
+ * [ITCSS](https://speakerdeck.com/dafed/managing-css-projects-with-itcss#49) ("Inverted Triangle CSS") est une autre méthode qui se combine très bien avec RSCSS.
+ * [rsjs](http://ricostacruz.com/rsjs/) ("Reasonable Standard of JavaScript Structure") est un document en cours de redaction pour structurer son code JavaScript dans le cas des sites simples.
 
-Other solutions
+Autres méthodes
 ---------------
 
 ### BEM
-[BEM] is nice, but some may be irked at its unconventional syntax. RSCSS pretty much follows BEM conventions, only with a different syntax.
+[BEM] est bien, mais certains peuvent être gênés par sa syntaxe quelque peu particulière. RSCSS suit la plupart des conventions BEM. La principale différence est une syntaxe différente.
 
 ```html
 <!-- BEM -->
@@ -27,7 +27,8 @@ Other solutions
 
 ## Terminologies
 
-The same concepts exist in similar ways in other CSS structuring ideologies.
+Les concepts décrits pour cette méthode sont similaires à d'autres concepts provenant des autres méthodes.
+Voici le tableau des correspondances (en anglais) :
 
 | RSCSS     | BEM      | SMACSS        |
 | ---       | ---      | ---           |

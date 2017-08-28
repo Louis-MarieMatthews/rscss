@@ -1,4 +1,4 @@
-# Nested components
+# Composants imbriqués
 
 ![](images/component-nesting.png)
 
@@ -12,18 +12,18 @@
 </div>
 ```
 
-Sometimes it's necessary to nest components. Here are some guidelines for doing that.
+Il est parfois nécessaire d'imbriquer certains éléments. Voici quelques consignes à ce sujet.
 
-## Variants
-A component may need to appear a certain way when nested in another component. Avoid modifying the nested component by reaching into it from the containing component.
+## Variantes
+Il peut être nécessaire de changer légèrement l'aspect d'un composant quand celui-ci est imbriqué dans un autre. Évitez d'atteindre le composant imbriqué depuis le composant parent.
 
 ```scss
 .article-header {
-  > .vote-box > .up { /* ✗ avoid this */ }
+  > .vote-box > .up { /* ✗ à éviter */ }
 }
 ```
 
-  Instead, prefer to add a variant to the nested component and apply it from the containing component.
+À l'inverse, définissez une variante que vous spécifiez depuis le code HTML.
 
 ```html
 <div class='article-header'>
@@ -40,8 +40,8 @@ A component may need to appear a certain way when nested in another component. A
 }
 ```
 
-## Simplifying nested components
-Sometimes, when nesting components, your markup can get dirty:
+## Simplifier les composants imbriqués
+Parfois, quand vous imbriquez des composants, le code HTML peut ne paraître pas très propre.
 
 ```html
 <div class='search-form'>
@@ -50,7 +50,7 @@ Sometimes, when nesting components, your markup can get dirty:
 </div>
 ```
 
-You can simplify this by using your CSS preprocessor's `@extend` mechanism:
+Vous pouvez simplifier cela avec la directive `@extend` :
 
 ```html
 <div class='search-form'>
@@ -69,6 +69,6 @@ You can simplify this by using your CSS preprocessor's `@extend` mechanism:
 }
 ```
 
-What about repeating elements like lists? Learn about Layouts.
-[Continue →](layouts.md)
+Qu'en est t-il des éléments qui se répètent comme les listes par exemple ? Découvrez les agencements.
+[Continuer →](layouts.md)
 <!-- {p:.pull-box} -->

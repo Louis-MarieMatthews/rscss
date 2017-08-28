@@ -1,13 +1,13 @@
-# Variants
+# Variantes
 
-Components may have variants. Elements may have variants, too.
+Les composants comme les éléments peuvent avoir des variantes.
 
 ![](images/component-modifiers.png)
 
 <br>
 
-## Naming variants
-Classnames for variants will be prefixed by a dash (`-`).
+## Comment appeler ses variantes
+Le nom des classes de variantes doit commencer par un tiret (`-`).
 
   ```scss
   .like-button {
@@ -17,8 +17,8 @@ Classnames for variants will be prefixed by a dash (`-`).
   }
   ```
 
-## Element variants
-Elements may also have variants.
+## Variantes d'élément
+Les éléments aussi peuvent avoir des variantes.
 
   ```scss
   .shopping-card {
@@ -27,14 +27,14 @@ Elements may also have variants.
   }
   ```
 
-## Dash prefixes
-Dashes are the preferred prefix for variants.
+## À propos du tiret au début
+Le tiret est ce qu'il y a de mieux pour préfixer ses variantes.
 
-  * It prevents ambiguity with elements.
-  * A CSS class can only start with a letter, `_` or `-`.
-  * Dashes are easier to type than underscores.
-  * It kind of resembles switches in UNIX commands (`gcc -O2 -Wall -emit-last`).
+  * Cela empêche toute ambiguïté avec d'autres éléments.
+  * Une classe en CSS ne peuvent commencer que par une lettre, `_` ou bien `-`.
+  * Les tirets sont parfois plus faciles à atteindre que les tirets bas.
+  * Cela ressemble légèrement à la syntaxe des commandes UNIX (`gcc -O2 -Wall -emit-last`).
 
-How do you deal with complex elements? Nest them.
-[Continue →](nested-components.md)
+Comment travailler avec des éléments complexes ? Il faut les imbriquer.
+[Continuer →](nested-components.md)
 <!-- {p:.pull-box} -->

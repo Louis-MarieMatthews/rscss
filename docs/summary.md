@@ -1,7 +1,7 @@
-# Summary
+# Sommaire
 
-* Think in **components**, named with 2 words (`.screenshot-image`)
-* Components have **elements**, named with 1 word (`.blog-post > .title`)
-* Name **variants** with a dash prefix (`.shop-banner.-with-icon`)
-* Components can nest
-* Remember you can extend to make things simple
+* Pensez en terme de **composants**, et donnez à leur classe un nom fait d'au moins deux mots (`.screenshot-image`).
+* Les composants contiennent des **éléments**, dont la classe n'est faite que d'un seul mot (`.blog-post > .title`).
+* Préfixez les **variantes** avec un tiret (`.shop-banner.-with-icon`).
+* Vous pouvez imbriquer vos composants.
+* N'oubliez pas d'utiliser `extend` pour rendre certaines choses plus simples.
