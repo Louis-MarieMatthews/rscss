@@ -11,7 +11,7 @@ Tous les composants seront nommés avec **au moins deux mots**, séparés par un
   * Un bouton « J'aime » (`.like-button`)
   * Un formulaire de recherche (`.search-form`)
   * Une vignette pour un article (`.article-card`)
-  * Un copmosant avec un namespace (`.rico-custom-header`)
+  * Un composant avec un namespace (`.rico-custom-header`)
 
 Mais alors, comment écrire un composant exactement ? Il faut pour cela découvrir les éléments.
 [Continuer →](elements.md)
