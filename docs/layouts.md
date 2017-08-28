@@ -1,6 +1,6 @@
 # Les agencements
 
-![](images/layouts.png)
+![Plusieurs composants de même type « .recipe-item » (recette) dans un autre composant « .recipe-list » (liste de recettes).](images/layouts.png)
 
 ## Éviter les propriétés de positionnement
 Les composants doivent être définis de telle sorte à pouvoir être ré-utilisés dans n'importe quel contexte. Évitez de définer ces propriétés dans la définition des composants :
