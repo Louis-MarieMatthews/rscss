@@ -15,7 +15,7 @@ Chaque composant peut avoir des éléments. Leur classes ne doivent être écrit
 ```
 
 ## Sélectionneurs d'éléments
-Essayez dans la mesure du possible de n'utiliser que le selecteur direct `>`.
+Essayez dans la mesure du possible de n'utiliser que le sélecteur direct `>`.
 Non seulement cela permet d'éviter de sélectionner involontairement des éléments imbriqués un niveau plus bas, mais ce sélecteur est également plus efficace.
 
 ```scss
