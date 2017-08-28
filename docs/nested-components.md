@@ -1,6 +1,6 @@
 # Composants imbriqués
 
-![](images/component-nesting.png)
+![Le composant « .article-link » (lien d'article) contient un autre composant, « .vote-box » (boîte à votes).](images/component-nesting.png)
 
 ```html
 <div class='article-link'>
