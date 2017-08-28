@@ -1,7 +1,7 @@
 # Table of contents
 
 - [rscss](../README.md)
-- **Components**
+- **Composants**
   - [Au sujet des composants](components.md)
   - [Les éléments](elements.md)
   - [Les variantes](variants.md)
@@ -15,5 +15,5 @@
   - [Appréhensions](apprehensions.md)
   - [Autres ressources](other-resources.md)
 - [Sommaire](summary.md)
-- **External resources**
+- **Ressources externes**
   - [Traductions](translations.md)
