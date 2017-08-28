@@ -31,8 +31,8 @@ Les éléments aussi peuvent avoir des variantes.
 Le tiret est ce qu'il y a de mieux pour préfixer ses variantes.
 
   * Cela empêche toute ambiguïté avec d'autres éléments.
-  * Une classe en CSS ne peuvent commencer que par une lettre, `_` ou bien `-`.
-  * Les tirets sont parfois plus faciles à atteindre que les tirets bas.
+  * Une classe en CSS ne peut commencer que par une lettre, `_` ou bien `-`.
+  * Les tirets sont parfois plus faciles à atteindre sur le clavier que les tirets bas.
   * Cela ressemble légèrement à la syntaxe des commandes UNIX (`gcc -O2 -Wall -emit-last`).
 
 Comment travailler avec des éléments complexes ? Il faut les imbriquer.
