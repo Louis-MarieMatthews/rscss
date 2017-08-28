@@ -7,7 +7,7 @@ Autres méthodes
 ---------------
 
 ### BEM
-[BEM] est bien, mais certains peuvent être gênés par sa syntaxe quelque peu particulière. RSCSS suit la plupart des conventions BEM. La principale différence est une syntaxe différente.
+[BEM] est bien, mais certaines personnes peuvent être gênés par sa syntaxe quelque peu particulière. RSCSS suit la plupart des conventions BEM. Sa principale différence est sa syntaxe qui est un peu différente.
 
 ```html
 <!-- BEM -->
