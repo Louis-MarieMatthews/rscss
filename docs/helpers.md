@@ -11,7 +11,7 @@ Certaines classes peuvent être utilisées de manière générale uniquement pou
 
 ## Comment appeler ses assistants
 Préfixez le nom des classes avec un tiret bas. De cette manière ils sont faciles à distinguer des variantes.
-Les tirets bas ne sont pas très beaux. C'est volontaire : c'est un moyen d'essayez de décourager leur utilisation trop fréquente.
+Les tirets bas ne sont pas très beaux. C'est volontaire : c'est un moyen d'essayer de décourager leur utilisation trop fréquente.
 
   ```html
   <div class='order-graphs -slim _unmargin'>
