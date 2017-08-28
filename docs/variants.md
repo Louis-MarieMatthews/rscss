@@ -2,7 +2,7 @@
 
 Les composants comme les éléments peuvent avoir des variantes.
 
-![](images/component-modifiers.png)
+![Le composant .search-form (formulaire de recherche) a une variante, .search-form.-prefixed, et une autre, .search-form.-compact.](images/component-modifiers.png)
 
 <br>
 
