@@ -5,7 +5,7 @@ Les éléments sont des « choses » au sein de vos composants.
 ![Un composant peut contenir des éléments. Ici, un formulaire de recherche (le composant) contient un champ et un bouton (les éléments).](images/component-elements.png)
 
 ## Comment appeler ses éléments
-Chaque composant peut avoir des éléments. Leur classes ne doivent être écrites en **un seul mot**.
+Chaque composant peut avoir des éléments. Leur classes ne doivent être écrites qu'en **un seul mot**.
 
 ```scss
 .search-form {
@@ -16,7 +16,7 @@ Chaque composant peut avoir des éléments. Leur classes ne doivent être écrit
 
 ## Sélectionneurs d'éléments
 Essayez dans la mesure du possible de n'utiliser que le selecteur direct `>`.
-Non seulement cela rend impossible de dépasser et d'atteindre d'autres sous-éléments (déjà contenus dans un autre élément), mais ce sélecteur est également plus efficace.
+Non seulement cela permet d'éviter de sélectionner involontairement des éléments imbriqués un niveau plus bas, mais ce sélecteur est également plus efficace.
 
 ```scss
 .article-card {
@@ -37,7 +37,7 @@ Pour les éléments qui nécessitent vraiment plusieurs mots, fusionnez-les en u
 ```
 
 ## Éviter d'utiliser les sélectionneurs de balises HTML directement
-Dans la mesure du possible, utilisez des classes en permanence. Les sélectionneurs d'éléments HTML sont tolérables, mais ils sont légèrement moins performants et peuvent être moins descriptifs.
+Dans la mesure du possible, utilisez des classes en permanence. Les sélectionneurs d'éléments HTML peuvent être utilisés, mais ils sont légèrement moins performants et peuvent être moins descriptifs.
 
 ```scss
 .article-card {
