@@ -1,7 +1,7 @@
 # Autres ressources
 
- * [ITCSS](https://speakerdeck.com/dafed/managing-css-projects-with-itcss#49) ("Inverted Triangle CSS") est une autre méthode qui se combine très bien avec RSCSS.
- * [rsjs](http://ricostacruz.com/rsjs/) ("Reasonable Standard of JavaScript Structure") est un document en cours de redaction pour structurer son code JavaScript dans le cas des sites simples.
+ * [ITCSS](https://speakerdeck.com/dafed/managing-css-projects-with-itcss#49) (« Inverted Triangle CSS ») est une autre méthode qui se combine très bien avec RSCSS.
+ * [rsjs](http://ricostacruz.com/rsjs/) (« Reasonable Standard of JavaScript Structure ») est un document en cours de redaction pour structurer son code JavaScript dans le cas des sites simples.
 
 Autres méthodes
 ---------------
