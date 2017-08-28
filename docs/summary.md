@@ -4,4 +4,4 @@
 * Les composants contiennent des **éléments**, dont la classe n'est faite que d'un seul mot (`.blog-post > .title`).
 * Préfixez les **variantes** avec un tiret (`.shop-banner.-with-icon`).
 * Vous pouvez imbriquer vos composants.
-* N'oubliez pas d'utiliser `extend` pour rendre certaines choses plus simples.
+* N'oubliez pas d'utiliser `extend` pour rendre certaines parties du code HTML plus simples.
